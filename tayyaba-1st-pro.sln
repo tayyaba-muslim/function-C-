@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tayyaba-1st-pro", "tayyaba-1st-pro\tayyaba-1st-pro.csproj", "{6694F4A6-8C92-4DD8-B8EB-0BE8DFAF3EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "functions", "functions\functions.csproj", "{F26CBC12-07A1-4925-A057-533533903ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6694F4A6-8C92-4DD8-B8EB-0BE8DFAF3EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6694F4A6-8C92-4DD8-B8EB-0BE8DFAF3EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6694F4A6-8C92-4DD8-B8EB-0BE8DFAF3EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6694F4A6-8C92-4DD8-B8EB-0BE8DFAF3EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26CBC12-07A1-4925-A057-533533903ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26CBC12-07A1-4925-A057-533533903ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26CBC12-07A1-4925-A057-533533903ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26CBC12-07A1-4925-A057-533533903ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8D349A5-6906-4E25-983E-4DEAED4D269C}
+	EndGlobalSection
+EndGlobal
