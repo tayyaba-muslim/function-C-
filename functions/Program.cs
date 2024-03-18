@@ -1,6 +1,8 @@
-﻿namespace functions
+using function;
+
+namespace functions
 {
-    internal class Program
+    internal class Function
     {
         //void does not value return
         void msg()
@@ -48,19 +50,56 @@
 
         static void Main(string[] args)
         {
-            Std_Details std = new Std_Details();
-            std.Details(1, "Ayra", "Khan", "matric", 29);
-            Console.WriteLine(std);
+            //Std_Details std = new Std_Details();
+            //std.Details(1, "Ayra", "Khan", "matric", 29);
+            //Console.WriteLine(std);
 
-            Console.WriteLine("Hello, World!");
-            Program obj1 = new Program();
-            obj1.msg();
-            Program.msg2();
+            //Console.WriteLine("Hello, World!");
+            //Program obj1 = new Program();
+            //obj1.msg();
             //Program.msg2();
-            //Program.msg2();
-            //Console.WriteLine(Program.fullname("sawera","ansari"));
-            var result = Program.Person_Details("sawera", "ansari" ,20);
-            Console.WriteLine(result);
+            ////Program.msg2();
+            ////Program.msg2();
+            ////Console.WriteLine(Program.fullname("sawera","ansari"));
+            //var result = Program.Person_Details("sawera", "ansari" ,20);
+            //Console.WriteLine(result);
+
+            //Constructor
+
+            //Class1 cl = new Class1();
+            //Class1 cl1 = new Class1("tayyaba","muslim");
+            Class1 cl2 = new Class1("Sawera", "Ansari", "22");
+            cl2.FirstName = "Sawera";
+            cl2.LastName = "Ansari";
+            cl2.Age = "22";
+            //cl.msg3();
+            //cl.num1 = 50;
+            //cl.num2 = 40;
+            //cl.add();
+
+
+            //inheritance
+            Person p = new Person();
+            Emp1 p1 = new Emp1();
+            Emp2 p2 = new Emp2();
+
+
+            p1.person_info(22, "Ali", "Male");
+            p1.emp1_info(23, "Akram", "Male");
+            p2.emp2_info(20, "Agha", "Male");
+
+            //p.id = 19;
+            //p.name = "Ali";
+            //p.gender = "Male";
+            //p.person_info();
+            //p.id = 20;
+            //p.name = "Aliya";
+            //p.gender = "Female";
+            //p.emp_info();
+
+            //inheritance2
+            manager m = new manager("Sawera ", "Ansari ", 21, " Manager");
+            worker w = new("Sawera ", "Ansari ", 21);
 
         }
 
